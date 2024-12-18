@@ -15,6 +15,12 @@ namespace Login
         public Form1()
         {
             InitializeComponent();
+            Data.Connection.OpenConnection();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
